@@ -20,7 +20,7 @@ This is a minimal Spring Boot application that:
 # 📁 Project Structure
 
 ```
-simple-spring-app/
+java-example-nag-war/
  ├── src/main/java/com/example/demo/DemoApplication.java
  ├── src/main/resources/application.yml
  ├── pom.xml
