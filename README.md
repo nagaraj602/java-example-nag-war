@@ -267,6 +267,10 @@ Output:
 ```
 target/java-example-demo-1.0.0.war
 ```
+Copy the the war file to webapps folder of tomcat: /opt/tomcat/webapps
+```bash
+cp target/java-example-demo-1.0.0.war /opt/tomcat/webapps
+```
 
 ---
 
