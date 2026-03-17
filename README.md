@@ -1,7 +1,4 @@
 # java-example-nag-war
-
-# java-example-nag-war
-
 └──> source code for building WAR application
 
 ---
