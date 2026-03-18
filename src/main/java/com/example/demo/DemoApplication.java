@@ -22,6 +22,14 @@ public class DemoApplication extends SpringBootServletInitializer {
 
     @GetMapping("/")
     public String home() {
-        return "Hello, Spring Boot WAR deployed on Tomcat!";
+        return """
+            <html>
+                <body style="margin:0; background-color:#0a2540; display:flex; justify-content:center; align-items:center; height:100vh;">
+                    <h1 style="color:white; font-family:Arial;">
+                        Hello, Spring Boot is running on port 8085!
+                    </h1>
+                </body>
+            </html>
+            """;
     }
 }
